@@ -42,8 +42,9 @@ const request = {
     }
 }
 
-// get方法调用示例
+// usage:
 
+// get方法调用示例
 // let url = "https://dev.zte.com.cn/api/wxcop/guest/topic/36108/author?noloading";
 // request.get(url).then(res => {
 //     console.log('res')
