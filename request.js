@@ -42,13 +42,24 @@ const request = {
     }
 }
 
-// export default request;
+// get方法调用示例
+
 // let url = "https://dev.zte.com.cn/api/wxcop/guest/topic/36108/author?noloading";
-// let method = "get";
+// request.get(url).then(res => {
+//     console.log('res')
+//     console.log(res)
+//     console.log(JSON.stringify(res))
+// }).catch(err => {
+//     console.log('err')
+//     console.log(err)
+//     console.log(JSON.stringify(err))
+// })
+
+// post方法调用示例
 // let data = {
 //     "data": "123"
 // };
-// request.get(url).then(res => {
+// request.post(url, data).then(res => {
 //     console.log('res')
 //     console.log(res)
 //     console.log(JSON.stringify(res))
