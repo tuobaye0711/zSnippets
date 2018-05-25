@@ -6,3 +6,4 @@ useful tools
 目录：
 
 1. [js实现快排序](quick-sort.js)
+2. [使用Promise封装一个XMLHTTPRequest请求组件](request.js)
