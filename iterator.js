@@ -14,11 +14,11 @@ var str = "Hello world!";
 
 // for in遍历:适用于str,array,object; for of遍历:适用于str,array,set,map
 const iterator1 = foo => {
-    for (let key in foo){
+    for (let key in foo) {
         console.log(`key: ${key}`);
     }
 
-    for (let value of foo){
+    for (let value of foo) {
         console.log(`value: ${value}`);
     }
 }
@@ -44,7 +44,6 @@ const iterator2 = foo => {
 
         for (let value of Object.values(foo)) {
             console.log(`value: ${value}`);
-            console.log(Reflect.ownKeys(foo).map(f => foo[f]))
         }
     }
 }
@@ -52,8 +51,33 @@ const iterator2 = foo => {
 // Reflect.ownKeys()可以用来遍历array和object
 const iterator3 = foo => {
     console.log(Reflect.ownKeys(foo))
+    console.log(Reflect.ownKeys(foo).map(f => foo[f]))
 }
 
 iterator1(arr);
+// key: 0
+// key: 1
+// key: 2
+// key: 3
+// key: 4
+// value: Jack
+// value: Smith
+// value: Divid
+// value: James
+// value: Mike
+
 iterator2(arr);
+// key: 0
+// key: 1
+// key: 2
+// key: 3
+// key: 4
+// value: Jack
+// value: Smith
+// value: Divid
+// value: James
+// value: Mike
+
 iterator3(arr);
+// [ '0', '1', '2', '3', '4', 'length' ]
+// [ 'Jack', 'Smith', 'Divid', 'James', 'Mike', 5 ]
