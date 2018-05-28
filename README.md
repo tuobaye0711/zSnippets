@@ -7,3 +7,4 @@ useful tools
 
 1. [js实现快排序](quick-sort.js)
 2. [使用Promise封装一个XMLHTTPRequest请求组件](request.js)
+3. [各种数据类型的遍历方法](iterator.js)
