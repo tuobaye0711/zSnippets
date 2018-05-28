@@ -44,6 +44,7 @@ const iterator2 = foo => {
 
         for (let value of Object.values(foo)) {
             console.log(`value: ${value}`);
+            console.log(Reflect.ownKeys(foo).map(f => foo[f]))
         }
     }
 }
