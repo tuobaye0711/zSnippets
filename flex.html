@@ -1,0 +1,90 @@
+<div class="container">
+    <div class="item item-1 yellow animation"></div>
+    <div class="item item-2 blue"></div>
+    <div class="item item-3 red"></div>
+    <div class="item item-4 green"></div>
+</div>
+
+<style>
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        background: whitesmoke;
+    }
+
+    .yellow {
+        background-color: yellow
+    }
+
+    .blue {
+        background-color: blue
+    }
+
+    .red {
+        background-color: red
+    }
+
+    .green {
+        background-color: green
+    }
+
+    .animation {
+        animation: change 10s;
+    }
+
+    .item {
+        border: 1px solid #000;
+        height: 50px;
+    }
+
+    .item-1 {
+        flex: 1
+    }
+
+    .item-2 {
+        flex: 2
+    }
+
+    .item-3 {
+        flex: 3
+    }
+
+    .item-4 {
+        flex: 4
+    }
+
+    .item-5 {
+        flex: 5
+    }
+
+    .item-6 {
+        flex: 6
+    }
+
+    .item-7 {
+        flex: 7
+    }
+
+    .item-8 {
+        flex: 8
+    }
+
+    .item-9 {
+        flex: 9
+    }
+
+    .item-10 {
+        flex: 10
+    }
+
+    @keyframes change {
+        from {
+            flex: 1
+        }
+
+        to {
+            flex: 100
+        }
+    }
+</style>
