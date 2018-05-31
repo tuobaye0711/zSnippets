@@ -1,5 +1,5 @@
-# zTools
-useful tools
+# zSnippets
+useful snippets
 ***
 自己在开发过程中写的一些有意思的小的代码片段
 
@@ -10,3 +10,4 @@ useful tools
 3. [各种数据类型的遍历方法](iterator.js)
 4. [flex弹性布局+CSS3 animation简单演示](flex.html)
 5. [圣杯布局](grail-layout.html)
+6. [双飞翼布局](sfy-layout.html)
