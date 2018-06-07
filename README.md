@@ -12,4 +12,5 @@ useful snippets
 5. [圣杯布局](grail-layout.html)
 6. [双飞翼布局](sfy-layout.html)
 7. [一个可以实现绑定事件、解绑事件和派发事件的事件类](Event.js)
-8. [JavaScript设计模式之单例模式](Singleton.js)
+8. [JavaScript设计模式实现之单例模式](singleton.js)
+8. [JavaScript设计模式实现之单例模式](strategy.js)
