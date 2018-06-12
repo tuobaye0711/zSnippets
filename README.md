@@ -15,4 +15,4 @@ useful snippets
 8. [JavaScript设计模式实现之单例模式](singleton-pattern.js)
 9. [JavaScript设计模式实现之策略模式](strategy-pattern.js)
 10. [JavaScript设计模式实现之代理模式](proxy-pattern.js)
-11. [JavaScript设计模式实现之代理模式](iterator-pattern.js)
+11. [JavaScript设计模式实现之迭代器模式](iterator-pattern.js)
