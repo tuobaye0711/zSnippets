@@ -17,3 +17,4 @@ useful snippets
 10. [JavaScript设计模式实现之代理模式](proxy-pattern.js)
 11. [JavaScript设计模式实现之迭代器模式](iterator-pattern.js)
 12. [JavaScript设计模式实现之发布订阅模式](pubsub-pattern.js)
+13. [JavaScript设计模式实现之命令](command-pattern.js)
