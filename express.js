@@ -5,7 +5,9 @@ const core = function(req, res) {
     const method = req.method.toLowerCase();
     const obj = url.parse(req.url, true);
     const pathname = obj.pathname;
-    const cb = hitRouting(method, pathname)
+    const cb = hitRouting(method, pathname);
+
+    req.url = obj;
 
     next(req, res)
     cb(req, res)
